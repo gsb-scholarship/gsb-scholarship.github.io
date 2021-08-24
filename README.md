@@ -1,7 +1,7 @@
 # gsb-scholarship.github.io
 Scholarship aggregator for GSB students
 
-Link -- http://gsb-scholarship.github.io
+Link -- https://gsb-scholarship.github.io
 
 Current Status - Just a list.
 
