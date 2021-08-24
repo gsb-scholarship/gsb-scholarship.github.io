@@ -6,8 +6,8 @@
 </head>
 <style>
     .wrap {
-        width: 640px;
-        height: 480px;
+        width: 800px;
+        height: 600px;
         overflow: hidden;
     }
 
@@ -19,28 +19,85 @@
         -webkit-transform-origin: 0 0;
         transform-origin: 0 0;
     }
+
+    .blinking {
+        animation: blinkingText 0.8s infinite;
+    }
+
+    @keyframes blinkingText {
+        0% {
+            color: #000;
+        }
+
+        49% {
+            color: blue;
+        }
+
+        50% {
+            color: green;
+        }
+
+        99% {
+            color: red;
+        }
+
+        100% {
+            color: #000;
+        }
+    }
 </style>
 
 <body style="background-color:rgba(148, 140, 194, 0.459);">
     <h1>GSB Scholarship List</h1>
-    <p>(Version 1.1 - updated - 23-Aug-2021)</p>
+    <p>(Version 1.2 - updated - 24-Aug-2021)</p>
     <p>Hosted with GitHub Pages.</p>
 
     <h3>Purpose</h3>
-    This list is maintained to help students of GSB community get in touch with scholarship providers.
+    <p>This list is maintained to help students of GSB community get in touch with scholarship providers.</p>
     <h3>General Process</h3>
-    <p>You can send a postcard to the mentioned address with your details like </p>
-    <p>a. Name, Address, Contact Number, School, Class</p>
-    <p>b. Mention need for scholarship - Merit / Financial difficulty</p>
-    <p>c. Request for application</p>
+    <p>You can send a postcard to the mentioned address with your details like :</p>
+    <ol>
+        <li>
+            <p>Name, Address, Contact Number, School, Class</p>
+        </li>
+        <li>
+            <p>Mention need for scholarship - Merit / Financial difficulty</p>
+        </li>
+        <li>
+            <p>Request for application</p>
+        </li>
+    </ol>
     <h3>Notes</h3>
-    <p>The list published is not verified.</p>
-    <p>If you have details about other scholarship sponsers, please do reach out at <a
-            href="mailto:vinayak.kudva@gmail.com">vinayak.kudva@gmail.com</a></p>
+    <ul>
+        <li>
+            <p>The list published is not verified, I am just a aggregator of this information not a scholarship
+                provider.</p>
+        </li>
+        <li>
+            <p>
+                For quick clarification of queries, I have created a telegram channel .
+                <a href="https://t.me/joinchat/tozqEHfSHRtlZWNl">Join GSB Scholarship Information Telegram Channel</a>
+            </p>
+        </li>
+    </ul>
+
+    <h3>Immediately available Vidyakalpaka Scholarships for SSLC Pass students and applying for 1st PUC</h3>
+    <span class="blinking">
+        <h4>
+            <p>Last date 15th September 2021</p>
+        </h4>
+    </span>
+    <p><a href="./resources/Vidyakalpaka Application Form for Gsb First Puc Students Only 2021.pdf">Download Vidyakalpa application
+        form for PUC 1st Year Students only</a></p>
+    <p><img src="./resources/vidyakalpa.jpeg"></img></p>
+
+
     <div class='wrap'>
         <iframe src="./resources/AddressList.htm" style="border:1px solid black;"></iframe>
     </div>
     <p></p>
+    <p>If you have any details about other scholarship sponsers that can help students and can be added to this List,
+        please do reach out at <a href="mailto:vinayak.kudva@gmail.com">vinayak.kudva@gmail.com</a></p>
     <!-- hitwebcounter Code START -->
     <a href="https://www.hitwebcounter.com" target="_blank">
         <img src="https://hitwebcounter.com/counter/counter.php?page=7857544&style=0019&nbdigits=5&type=ip&initCount=0"
