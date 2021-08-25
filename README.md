@@ -19,3 +19,9 @@ Next Stages -
 11. Mapping student requirement by geography?
 12. Prediction of scholarship requirement?
 13. sponsorship for students by corporates for a future committment to work?
+
+Needed help on - 
+1. Contact details, email address, website, application process, eligibility criteria of each Sponsor
+2. Creating a distributed network of trusted local volunteers to help facilitate the scholarship application process
+3. Dividing scholarship sponsors by area / class / criteria to avoid duplicate sponsership of same candidate
+4. Centralized Scholarship candidate database to prevent misue
